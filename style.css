@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: goldenrod;
+
+}
+
+.figure {
+    display: inline-flex;
+    padding: 2%;
+}
+
+.main {
+    font-family: Georgia, serif;
+    padding-inline-start: 100px;
+    background-color: darkslategray;
+    font-size: 20px;
+    color: rgb(251, 249, 249);
+    text-align: justify;
+    padding-inline-start: 50px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.header {
+
+    border-radius: 7px;
+    text-decoration: none;
+
+}
+
+.nav ul {
+    list-style: none;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+/* Style for navigation links */
+.nav ul li {
+    display: inline-flex;
+    /* Display list items horizontally */
+    margin-right: 90px;
+    /* Adjust the spacing between links */
+}
+
+/* Style for the link text */
+.nav ul li a {
+    text-decoration: none;
+    /* Remove underlines from links */
+    color: #090909;
+    /* Set link text color */
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 8%;
+    /* Make the text bold */
+}
+
+
+
+/* Style for link hover (optional) */
+.nav ul li a:hover {
+    color: #22ff00;
+    /* Change link color on hover */
+}
+
+/* Style the button */
+.button {
+    text-align: center;
+}
+
+.button button {
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+
+    cursor: pointer;
+    font-size: 16px;
+    font-family: bold;
+    margin-top: 2%;
+    border-radius: 8px;
+
+}
+
+/* Hover effect */
+.button button:hover {
+    background-color: #0056b3;
+}
